@@ -1,0 +1,29 @@
+#Navbar{
+  float: left;
+  width: 98%;
+  height: max-content;
+  padding-left: 20px;
+}
+#Logo{
+  float: left;
+  margin: 0px;
+  font-size: 24px;
+  padding: 10px;
+  margin-right: 60px;
+  font-weight: 800;
+}
+#Navbar a{
+  font-size: 18px;
+  float: left;
+  margin: 5px;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 40px;
+}
+#Navbar a:hover{
+  color: white;
+  background-color: rgb(20, 20, 20);
+}
+#rightnav{
+  float: right;
+}

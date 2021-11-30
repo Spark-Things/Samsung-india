@@ -1,0 +1,275 @@
+#Maintab{
+  width:94%;
+  height:100%;
+  padding: 30px;
+}
+#Slider{
+  float: left;
+  width: 100%;
+  height: 730px;
+  background-color: yellowgreen;
+  margin: 20px;
+}
+.discp{
+  width:max-content;
+  position: absolute;
+  top: 40%;
+  margin-left: 50%;
+}
+.simg{
+  width: 100%;
+  height: 100%;
+}
+.sdisp{
+  width:max-content;
+  font-size: 58px; 
+  font-weight: 550;
+  margin: 0px;
+}
+.container{
+  float: left;
+  text-align: center;
+  width: 100%;
+  height:max-content;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+#innavbar{
+  float: left;
+  width:100%;
+  padding-top: 40px;
+  display:flex;
+ flex-direction:row;
+ text-align: center;
+}
+#innavbar2{
+  float: left;
+  width:100%;
+  padding-top: 40px;
+  display:flex;
+ flex-direction:row;
+ text-align: center;
+}
+.heading{
+  font-size: 44px;
+}
+.intabs{
+  width:max-content;
+  color: black;
+  font-size: 24px;
+  font-weight: 550;
+  padding: 10px;
+}
+.intabs:hover{
+ color: grey;
+}
+.inltab{
+  float: left;
+  width: 45%;
+  background-color: goldenrod;
+  height: 620px;
+  margin: 30px;
+  margin-left: 80px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+.inrtab{
+  float: left;
+  width: 40%;
+  height:max-content;
+  margin: 30px;
+  padding-left: 0px;
+}
+.inltab2{
+  float: left;
+  width: 45%;
+  background-color: goldenrod;
+  height: 500px;
+  margin: 30px;
+  margin-left: 27%;
+  margin-right: 27%;
+  border-radius: 20px;
+}
+.concontent{
+  float: left;
+  text-align: center;
+ height:max-content;
+ width:100%;
+ margin-top: 20px;
+}
+.Nameholder{
+  width: 100%;
+  text-align: center;
+  font-size: 58px;
+  margin: 0px;
+}
+.cashback{
+  width:100%;
+  font-size: 18px;
+  margin: 10px;
+}
+.learnmore{
+  font-size: 18px;
+  padding: 5px;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+.buybutton{
+  width:max-content;
+  font-size: 18px;
+  color: white;
+  padding: 10px;
+  background-color: black;
+  border: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 40px;
+}
+.container2{
+  float: left;
+  color: white;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  height:max-content;
+  margin-top: 60px;
+  padding-bottom: 30px;
+}
+.white{
+  color: white;
+}
+.buybutton2{
+  width: 8%;
+  font-size: 18px;
+  color: black;
+  padding: 10px;
+  font-weight: 550;
+  background-color: white;
+  border: 0px;
+  border-radius: 40px;
+}
+.container3{
+  float: left;
+  color: black;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  height:max-content;
+  padding-bottom: 30px;
+}
+.list{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height:max-content;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: left;
+}
+.topspacer{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.blackline{
+  width: 100%;
+  float: left;
+  background-color: black;
+  height: 2px;
+  margin-bottom: 5px;
+}
+.index{
+  font-size: 18px;
+  padding: 20px;
+  padding-top: 35px;
+}
+.rules{
+  width: 100%;
+  margin: 0px;
+}
+.hide{
+  opacity: 0;
+}
+.searchbar{
+  font-size: 22px;
+  width: 30%;
+  padding: 15px;
+  border:  black 1px solid;
+  border-radius: 30px;
+}
+#tabcontainer{
+  margin-top: 30px;
+}
+.ntabs{
+  border-radius: 30px;
+  border: rgb(161, 161, 161) 1px solid;
+  margin: 5px;
+  padding: 5px 10px;
+}
+.ntabs:hover{
+  background-color: rgba(153, 153, 153, 0.527);
+}
+.txtcontainer{
+  text-align: left;
+  height:max-content;
+  font-size: 12px;
+  width: 80%;
+  margin: 100px;
+}
+#table{
+  color: rgb(110, 110, 110);
+  width: 100%;
+  border: rgba(146, 146, 146, 0.288) 1px solid;
+  border-left: 0px;
+  border-right: 0px;
+  margin: 50px;
+}
+tr{
+  width: 18.8%;
+  text-align: start;
+  height:max-content;
+}
+td{
+  border-right: rgba(146, 146, 146, 0.288) 1px solid;
+  padding: 9px;
+}
+td:hover{
+  color: blue;
+  text-decoration: underline;
+}
+.tableh{
+  color: black;
+  font-size: 20px;
+  font-weight: 550;
+  padding-top: 20px;
+}
+.tableh:hover{
+  color: black;
+  text-decoration: none;
+}
+.noborder{
+  border-right: 0px;
+}
+.txtcontainer2{
+  text-align:center;
+  height:max-content;
+  font-size: 12px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+#sw{
+  margin-top: 50px;
+  text-align: center;
+}
+#name{
+  font-size: 24px;
+  margin: 5px;
+}
+.opend{
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+
+}

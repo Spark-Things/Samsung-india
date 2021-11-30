@@ -1,0 +1,10 @@
+.subcontainer{
+  float: left;
+  height: 250px;
+  width: 250px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: indigo;
+  border-radius: 20px;
+}
