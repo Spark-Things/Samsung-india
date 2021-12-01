@@ -1,4 +1,7 @@
 import './Navbar.css';
+import search from './search.png';
+import cart from './cart.png';
+import user from './user.png';
 function Navbar(){
   return(
     <div id="Navbar">
@@ -12,7 +15,12 @@ function Navbar(){
      <div id="rightnav">
         <a>Explore</a>
         <a>Support</a>
-        <a>For Businuss</a>   
+        <a>For Businuss</a>
+        <div>
+         <button className="icon"><img src={search} className="navicon"/></button>
+         <button className="icon"><img src={cart} className="navicon"/></button> 
+         <button className="icon"><img src={user} className="navicon"/></button>    
+        </div>   
     </div> 
     </div>
   )

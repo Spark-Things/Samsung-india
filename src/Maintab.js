@@ -1,14 +1,26 @@
+import {useState} from 'react';
 import './Maintab.css';
 import Navbar from "./Navbar";
 import Subcontainer from './Subcontainer';
+import left from './left.png';
+import forward from './forward.png';
 import p1 from './p1.jpg';
 import p2 from './p2.jpg';
+import p3 from './p3.jpg';
+import p4 from './p4.jpg';
 function Maintab() {
+    const style1={
+        display: "none"
+    }
+    const style2={
+        display: "block"
+    }
+    const [Show, setShow] = useState(1);
   return(
     <div id="Maintab">
         <Navbar/>
        <div id="Slider">
-         <div id="slide1">
+         <div id="slide1"  style={Show == 1 ? style2 : style1}>
          <img src={p1} className="simg"/>
          <div className="discp">
          <h1 className="sdisp">Galaxy Z </h1>
@@ -17,16 +29,43 @@ function Maintab() {
            <a className="learnmore">Learn More</a>
            <button className="buybutton">Buy Now</button>
          </div>
+           <button className="preb" onClick={() => {setShow(4)}}><img className="navimg" src={left}/></button>
+           <button className="nextb" onClick={() =>{setShow(2)}}><img className="navimg" src={forward}/></button>
          </div>
-         <div id="slide1">
-         <img className="simg"/>
-         <div className="discp">
-         <h1 className="sdisp">Galaxy Z </h1>
-         <h1 className="sdisp">Fold3 | Flip3 5G </h1><br/>
-         <p className="cashback">₹7000 cashback* on HDFC bank cards</p><br/><br/>
+         <div id="slide1" style={Show == 2 ? style2 : style1}>
+         <img src={p2} className="simg"/>
+         <div className="discp2">
+         <h1 className="sdisp">Neo QLED 8K </h1><br/>
+         <p className="cashback">Greatness never ends,but envoles</p><br/><br/>
+           <a className="learnmore">Learn More</a>
+           <button className="buybutton2">Buy Now</button>
+         </div>
+         <button className="preb" onClick={() =>{setShow(1)}}><img className="navimg" src={left}/></button>
+         <button className="nextb" onClick={() =>{setShow(3)}}><img className="navimg" src={forward}/></button>
+         </div>
+         <div id="slide1" style={Show == 3 ? style2 : style1}>
+         <img src={p3} className="simg"/>
+         <div className="discp3">
+         <h1 className="sdisp">BESPOKE Refrigerators </h1><br/>
+         <p className="cashback">Design for you,by you</p>
+         <p className="cashback">20% Cashback#+12/0 EMI</p><br/><br/>
            <a className="learnmore">Learn More</a>
            <button className="buybutton">Buy Now</button>
          </div>
+         <button className="preb" onClick={() =>{setShow(2)}}><img className="navimg" src={left}/></button>
+         <button className="nextb" onClick={() =>{setShow(4)}} ><img className="navimg" src={forward}/></button>
+         </div>
+         <div id="slide1" style={Show == 4 ? style2 : style1}>
+         <img src={p4} className="simg"/>
+         <div className="discp">
+         <h1 className="sdisp">The New Galaxy Watch4 </h1><br/>
+         <p className="cashback">Starts At 23999*</p>
+         <p className="cashback">Get additional 3000/- cashback*</p><br/><br/>
+           <a className="learnmore">Learn More</a>
+           <button className="buybutton">Buy Now</button>
+         </div>
+         <button className="preb" onClick={() =>{setShow(3)}} ><img className="navimg" src={left}/></button>
+         <button className="nextb" onClick={() =>{setShow(1)}}><img className="navimg" src={forward}/></button>
          </div>
        </div>
        <div className="container">
