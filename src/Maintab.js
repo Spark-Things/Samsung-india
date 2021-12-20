@@ -1,13 +1,37 @@
 import {useState} from 'react';
 import './Maintab.css';
 import Navbar from "./Navbar";
-import Subcontainer from './Subcontainer';
+import Mcon from './Mcon';
+import Mpcontainer from './Mpcontainer';
+import Taconatiner from './Tacontainer';
 import left from './left.png';
 import forward from './forward.png';
 import p1 from './p1.jpg';
 import p2 from './p2.jpg';
 import p3 from './p3.jpg';
 import p4 from './p4.jpg';
+import z3 from './z3.jpg';
+import t7 from './t7.jpg';
+import w4 from './w4.jpg';
+import A5 from './A5.jpg';
+import M5 from './M5.jpg';
+import tv from './tv.jpg';
+import hd1 from './hd1.jpg';
+import m2 from './m2.png';
+import tvp from './TVP.png';
+import Bsp from './Bsp.png';
+import ts7 from './ts7.jpg';
+import eik from './eik.jpg';
+import q4k from './q4k.jpg';
+import serif from './serif.jpg';
+import frame from './frame.jpg';
+import lp from './lp.png';
+import hak from './hak.jpg';
+import ha2 from './ha2.jpg';
+import ha3 from './ha3.jpg';
+import ha4 from './ha4.jpg';
+import HAcontainer from './HAacontainer';
+import Mobile from './Mobile';
 function Maintab() {
     const style1={
         display: "none"
@@ -15,7 +39,14 @@ function Maintab() {
     const style2={
         display: "block"
     }
+    const color ={
+        color: "black"
+    }
     const [Show, setShow] = useState(1);
+    const[Selected,setSelected] = useState(1);
+    const[Selected2,setSelected2] = useState(1);
+    const[Selected3,setSelected3] = useState(1);
+    const[Selected4,setSelected4] = useState(1);
   return(
     <div id="Maintab">
         <Navbar/>
@@ -71,101 +102,167 @@ function Maintab() {
        <div className="container">
            <h2 className="heading">This Month's Pick</h2>
            <div id="innavbar">
-               <div className="intabs">
-               <a>Offers for You</a>
-               <span className="opend"></span>
+              <ul>
+                  <li className='tabs'> 
+               <div className="intabs" onClick={() =>{
+                   setSelected(1);
+               }}>
+                    <a>Offers for You</a>
+               <span className="opend" style={Selected==1? style2 : style1}></span>
                </div>
-               <div className="intabs">
+                 </li>
+                 <li className='tabs'>
+                 <div className="intabs" onClick={() =>{
+                   setSelected(2);
+               }}>
                <a>Mobile</a>
-               <span className="opend"></span>
+               <span className="opend" style={Selected==2? style2 : style1}></span>
                </div>
-               <div className="intabs">
+               </li>
+               <li className='tabs'>
+               <div className="intabs" onClick={() =>{
+                   setSelected(3);
+               }}>
                <a>TV</a>
-               <span className="opend"></span>
+               <span className="opend" style={Selected==3? style2 : style1}></span>
                </div>
-               <div className="intabs">
+               </li>
+               <li className='tabs'>
+               <div className="intabs" onClick={() =>{
+                   setSelected(4);
+               }}>
                <a>Appliance</a>
-               <span className="opend"></span>
+               <span className="opend" style={Selected==4? style2 : style1}></span>
                </div>
-               <div className="intabs">
+               </li>
+               <li className='tabs'>
+               <div className="intabs" onClick={() =>{
+                   setSelected(5);
+               }}>
                <a>Accessories & Watches</a>
-               <span className="opend"></span>
+               <span className="opend" style={Selected==5? style2 : style1}></span>
                </div>
-               <div className="intabs">
+               </li>
+               <li className='tabs'>
+               <div className="intabs" onClick={() =>{
+                   setSelected(6);
+               }}>
                <a>Tablets</a>
-               <span className="opend"></span></div>
+               <span className="opend" style={Selected==6? style2 : style1}></span></div>
+               </li>
+             </ul>  
            </div>
-           <div className="inltab">
-              <span>Hello mc</span>
-           </div>
-           <div className="inrtab">
-               <Subcontainer/>
-               <Subcontainer/>
-               <Subcontainer/>
-               <Subcontainer/>
-           </div>
+            <div style={Selected==1? style2 : style1}>
+                 <Mpcontainer img1={hd1}/>
+            </div>
+            <div style={Selected==2? style2 : style1}>
+                <Mpcontainer img1={m2}/></div>
+            <div style={Selected==3? style2 : style1}>
+                <Mpcontainer img1={tvp}/></div>
+            <div style={Selected==4? style2 : style1}>
+                <Mpcontainer img1={Bsp}/></div>
+            <div style={Selected==5? style2 : style1}>
+                <Mpcontainer img1={w4}/></div>
+            <div style={Selected==6? style2 : style1}>
+                <Mpcontainer img1={ts7}/></div>
        </div>
        <div className="container">
-           <h2 className="heading">Mobile</h2>
+           <h2 className="heading2">Mobile</h2>
            <div id="innavbar2">
-               <a className="intabs">Galaxy Z Flip3 5G</a>
-               <a className="intabs">Galaxy Tab S7 FE</a>
-               <a className="intabs">Galaxy Watch4</a>
-               <a className="intabs">Galaxy z Fold3 5G</a>
-               <a className="intabs">Galaxy M22 5G</a>
+               <ul>
+               <li className='tabs'><div className="intabs" onClick={() =>{
+                   setSelected2(1); }}>
+                       <a>Galaxy Z Flip3 5G</a>
+                       <span className="opend" style={Selected2==1? style2 : style1}></span>
+               </div>
+               </li>
+               <li className='tabs'><div className="intabs" onClick={() =>{
+                   setSelected2(2);
+               }}><a>Galaxy Tab S7 FE</a>
+               <span className="opend" style={Selected2==2? style2 : style1}></span>
+               </div></li>
+               <li className='tabs'><div className="intabs" onClick={() =>{
+                   setSelected2(3);
+               }}><a>Galaxy Watch4</a><span className="opend" style={Selected2==3? style2 : style1}></span>
+               </div></li>
+               <li className='tabs'><div className="intabs" onClick={() =>{
+                   setSelected2(4);
+               }}><a>Galaxy M52 5G</a><span className="opend" style={Selected2==4? style2 : style1}></span>
+               </div></li>
+               <li className='tabs'><div className="intabs" onClick={() =>{
+                   setSelected2(5);
+               }}><a>Galaxy A52 5G</a><span className="opend" style={Selected2==5? style2 : style1}></span>
+               </div></li>
+               </ul>
            </div>
-           <div className="inltab2">
-              <span>Hello mc</span>
-           </div><br/>
-           <div className="concontent">
-           <h1 className="Nameholder">Mobile Name</h1>
-           <p className="cashback">₹7000 cashback* on HDFC bank cards</p>
-           <a className="learnmore">Learn More</a>
-           <button className="buybutton">Buy Now</button>
-           </div>
+               <div style={Selected2==1? style2 : style1}><Mcon image={z3} mname="Galaxy Z Flip3 5G" cb="₹7000 cashback* on all bank cards or upgrade bonus"/></div>
+                <div style={Selected2==2? style2 : style1}><Mcon image={t7} mname="Galaxy Tab S7 FE" cb="31.5cm (12.4) Display | S Pen in Box | 10090mAH Battery | Additional ₹4000 Instant Cashback "/></div>
+                <div style={Selected2==3? style2 : style1}><Mcon image={w4} mname="Galaxy Watch4" cb="Starting at ₹23999* | Get additional ₹3000 cashback* "/></div>
+                <div style={Selected2==4? style2 : style1}><Mcon image={M5} mname="Galaxy M52 5G" cb="7.4mm sleek | SD 778G (6nm) | FHD+ sAMOLED+ 120Hz | 5G Guarantee  "/></div>
+                <div style={Selected2==5? style2 : style1}><Mcon image={A5} mname="Galaxy A52 5G" cb="Snapdragon 778G | 120Hz sAMOLED | 5G Guarantee"/></div>
         </div>
         <div className="container2">
-           <h2 className="heading">TV & AV</h2>
-           <div id="innavbar">
-               <a className="intabs white">Neo QLED 8K</a>
-               <a className="intabs white">QLED 4K</a>
-               <a className="intabs white">The Serif</a>
-               <a className="intabs white">The Frame</a>
-               <a className="intabs white">Crystal 4K UHD</a>
+           <h2 className="heading3" style={(Selected3==2 || Selected3==4 || Selected3==5 ? color : null)}>TV & AV</h2>
+           <div id="innavbar3">
+               <ul>
+               <li className='tabs'><div className="intabs2" onClick={() =>{
+                   setSelected3(1); }}><a style={(Selected3==2 || Selected3==4 || Selected3==5 ? color : null)}>Neo QLED 8K</a>
+                   <span className="opend2" style={Selected3==1? style2: style1}></span>
+                   </div></li>
+               <li className='tabs'><div className="intabs2" onClick={() =>{
+                   setSelected3(2); }}><a style={(Selected3==2 || Selected3==4 || Selected3==5 ? color : null)}>QLED 4K</a>
+                   <span className="opend2" style={Selected3==2? style2 : style1} ></span>
+                   </div></li>
+                <li className='tabs'><div className="intabs2" onClick={() =>{
+                   setSelected3(3); }}><a style={(Selected3==2 || Selected3==4 || Selected3==5 ? color : null)}>The Serif</a>
+                   <span className="opend2" style={Selected3==3? style2 : style1}></span>
+                   </div></li>
+                <li className='tabs'><div className="intabs2" onClick={() =>{
+                   setSelected3(4); }}><a style={(Selected3==2 || Selected3==4 || Selected3==5 ? color : null)}>The Frame</a>
+                   <span className="opend2" style={Selected3==4? style2 : style1}></span>
+                   </div></li>
+                <li className='tabs'><div className="intabs2" onClick={() =>{
+                   setSelected3(5); }}><a style={(Selected3==2 || Selected3==4 || Selected3==5 ? color : null)}>Crystal 4K UHD</a>
+                   <span className="opend2" style={Selected3==5? style2 : style1}></span>
+                   </div></li>
+               </ul>
            </div>
-           <div className="inltab2">
-              <span>Hello mc</span>
-           </div><br/>
-           <div className="concontent">
-           <h1 className="Nameholder white">Greatness never ends,but envoles.</h1>
-           <a className="learnmore white">Learn More</a>
-           <button className="buybutton2">Buy Now</button>
-           </div>
+               <div  style={Selected3==1? style2 : style1}><Taconatiner img={eik} t1="Greatness never ends,but envoles."/></div>
+               <div  style={Selected3==2? style2 : style1}><Taconatiner img={q4k} t1="A billion shades" t2="And cinematic sound" st={color}/></div>
+               <div  style={Selected3==3? style2 : style1}><Taconatiner img={serif} t1="The Serif" motto="Uncoditionally Beautiful"/></div>
+               <div  style={Selected3==4? style2 : style1}><Taconatiner img={frame} t1="The Frame | Make your own TV" st={color}/></div>
+               <div  style={Selected3==5? style2 : style1}><Taconatiner img={tv} t1="Crystal 4K UHD" motto="Crystal Defination or Nothing" st={color} /></div>
         </div>
         <div className="container3">
-        <h2 className="heading">Home Appliance</h2>
-           <div id="innavbar2">
-               <a className="intabs">BESPOKE Refrigerators</a>
-               <a className="intabs">Curd Maestro™</a>
-               <a className="intabs">AI Ecobubble™</a>
-               <a className="intabs">WindFree™ AC</a>
-               <a className="intabs">IntensiveWash Dishwasher™</a>
+        <h2 className="heading3">Home Appliance</h2>
+           <div id="innavbar3">
+               <ul>               
+               <li className='tabs'><div className="intabs2" onClick={() =>{
+                   setSelected4(1); }}><a style={color}>BESPOKE Refrigerators</a>
+                    <span className="opend white" style={Selected4==1? style2 : style1}></span>
+                    </div></li>
+              <li className='tabs'><div className="intabs2" onClick={() =>{
+                   setSelected4(2); }}><a style={color}>Curd Maestro™</a>
+                    <span className="opend white" style={Selected4==2? style2 : style1}></span>
+                    </div></li>
+              <li className='tabs'><div className="intabs2" onClick={() =>{
+                   setSelected4(4); }}><a style={color}>WindFree™ AC</a> 
+                    <span className="opend white" style={Selected4==4? style2 : style1}></span>
+                   </div></li>
+              <li className='tabs'><div className="intabs2" onClick={() =>{
+                   setSelected4(5);}}><a style={color}>IntensiveWash Dishwasher™</a> 
+                    <span className="opend white" style={Selected4==5? style2 : style1}></span>
+                   </div></li>
+               </ul>    
            </div>
-           <div className="inltab2">
-              <span>Hello mc</span>
-           </div>
-           <div className="concontent">
-           <h1 className="Nameholder">Appliance Name</h1>
-           <p className="cashback">₹7000 cashback* on HDFC bank cards</p><br/>
-           <a className="learnmore">Learn More</a>
-           <button className="buybutton">Buy Now</button>
-           </div>
+           <div style={Selected4==1? style2 : style1}><HAcontainer img={hak} t1="BESPOKE Refrigerators" motto="Designed  for you, by you | 20% cashback" st={color}/></div>
+           <div style={Selected4==2? style2 : style1}><HAcontainer img={ha2} t1="Curd Maestro™" motto="Makes tasty and hygienic curd"  st={color}/></div>
+           <div style={Selected4==4? style2 : style1}><HAcontainer img={ha3} t1="WindFree™ AC" motto=""/></div>
+           <div style={Selected4==5? style2 : style1}><HAcontainer img={ha4} t1="IntensiveWash Dishwasher™" motto="Eliminates up to 99.9% food bacteria*"/></div>
         </div>
         <div className="container">
            <h2 className="heading">Explore #DoWhatYoucant</h2>
-           <div className="inltab">
-              <span>Hello mc</span>
-           </div>
+              <img src={lp} className="inltab"/>
            <div className="inrtab topspacer"> 
                            <div className="blackline"></div>
                        <div className="list">

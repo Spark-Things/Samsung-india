@@ -1,0 +1,32 @@
+#Mobiletab{
+  position: absolute;
+  float: left;
+  height: max-content;
+  width: 98%;
+  background-color: blueviolet;
+  margin-top: 50px;
+  z-index: 1;
+}
+.mconatiner{
+  color: white;
+  height:max-content;
+  width: 30%;
+}
+.lists{
+  float: left;
+  font-size: 24px;
+  font-weight: 550;
+  width: 100%;
+  background-color: cadetblue;
+  padding: 20px;
+  height: max-content;
+  list-style-type:none;
+}
+#righttab{
+  position: absolute;
+  margin-left: 32.5%;
+  float: left;
+  width: 66%;
+  background-color: crimson;
+  height: 670px;
+}
