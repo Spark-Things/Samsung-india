@@ -3,30 +3,88 @@
   float: left;
   height: max-content;
   width: 98%;
-  background-color: blueviolet;
-  margin-top: 50px;
+  margin-top: 40px;
   z-index: 1;
+  padding: 20px;
+  padding-top: 30px;
+}
+#heads{
+  font-size: 35px;
+  margin: 0px;
+  background-color: white;
 }
 .mconatiner{
-  color: white;
-  height:max-content;
-  width: 30%;
+  float: left;
+  height:676px;
+  width: 25%;
+  background-color: white;
+  padding: 15px;
 }
 .lists{
+  color: rgba(20, 20, 20, 0.603);
   float: left;
-  font-size: 24px;
-  font-weight: 550;
+  font-size: 20px;
   width: 100%;
-  background-color: cadetblue;
-  padding: 20px;
+  padding: 18px 0px;
   height: max-content;
+  background-color: white;
   list-style-type:none;
 }
+.lists:hover{
+  text-decoration: underline;
+  color: black;
+  font-weight: 550;
+}
 #righttab{
-  position: absolute;
-  margin-left: 32.5%;
   float: left;
-  width: 66%;
-  background-color: crimson;
-  height: 670px;
+  width: 75%;
+  height: 676px;
+}
+#lcontent{
+  float: left;
+  width: 35%;
+  height: 676px;
+  background-color: white;
+}
+#rcontent{
+  float: left;
+  width: 65%;
+  height: 676px;
+  background-color: white;
+}
+.upernav{
+  width: 100%;
+  height: 50px;
+  background-color:white;
+  padding: 10px;
+}
+.cbtn{
+  float: right;
+  padding: 10px;
+}
+.rncontent{
+  float: left;
+  height:626px;
+  width:98%;
+  padding: 100px;
+  padding-left: 200px;
+  margin-left: 10px;
+}
+.imgs{
+  height: 350px;
+  width: 350px;
+  background-color: teal;
+  border-radius: 25px;
+  border: 0px;
+}
+.pname{
+  font-size: 22px;
+  font-weight: 550;
+
+}
+#vertical{
+  float: left;
+  background-color: grey;
+  height: 600px;
+  width: 2px;
 }

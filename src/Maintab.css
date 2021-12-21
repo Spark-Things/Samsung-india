@@ -1,6 +1,7 @@
 #Maintab{
-  width:94%;
-  height:100%;
+  float: left;
+  width:98%;
+  height:max-content;
   padding: 30px;
 }
 #Slider{
