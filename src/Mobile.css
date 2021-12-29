@@ -45,6 +45,7 @@
   width: 35%;
   height: 676px;
   background-color: white;
+  padding-top: 20px;
 }
 #rcontent{
   float: left;
@@ -80,7 +81,12 @@
 .pname{
   font-size: 22px;
   font-weight: 550;
-
+}
+.pname2{
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: underline;
+  margin: 0px;
 }
 #vertical{
   float: left;
