@@ -39,14 +39,14 @@ function Mobile() {
           <div id='righttab'>
                 <div id='lcontent'>
                 <div style={Mnum==1 ? style2 : style1}>
-                    <li className="lists">Galaxy Z Fold3 5G</li>
-                    <li className="lists">Galaxy Z Flip3 5G</li>
-                    <li className="lists">Galaxy S21 | S21+ 5G</li>
-                    <li className="lists">Galaxy S21 Ultra 5G</li>
-                    <li className="lists">Galaxy Tab S7 FE (Wi-Fi)</li>
-                    <li className="lists">Galaxy Watch4</li>
-                    <li className="lists">Galaxy Watch4 Classic</li>
-                    <li className="lists">Galaxy Buds2</li>     
+                    <a href='https://www.samsung.com/in/smartphones/galaxy-z-fold3-5g/' target="_self"><li className="lists">Galaxy Z Fold3 5G</li></a>
+                    <a href='https://www.samsung.com/in/smartphones/galaxy-z-flip3-5g'target="_self"><li className="lists">Galaxy Z Flip3 5G</li></a>
+                    <a href='https://www.samsung.com/in/smartphones/galaxy-s21-5g/'target="_self"><li className="lists">Galaxy S21 | S21+ 5G</li></a>
+                    <a href='https://www.samsung.com/in/smartphones/galaxy-s21-ultra-5g/'target="_self"><li className="lists">Galaxy S21 Ultra 5G</li></a>
+                    <a href='https://www.samsung.com/in/tablets/galaxy-tab-s7/buy/?modelCode=SM-T733NZKAINU'target="_self"><li className="lists">Galaxy Tab S7 FE (Wi-Fi)</li></a>
+                    <a href='https://www.samsung.com/in/watches/galaxy-watch/galaxy-watch4-black-bluetooth-sm-r870nzkainu/'target="_self"><li className="lists">Galaxy Watch4</li></a>
+                    <a href='https://www.samsung.com/in/watches/galaxy-watch/galaxy-watch4-classic-black-bluetooth-sm-r890nzkainu/'target="_self"><li className="lists">Galaxy Watch4 Classic</li></a>
+                    <a href='https://www.samsung.com/in/audio-sound/galaxy-buds/galaxy-buds2-graphite-sm-r177nzkainu/' target="_self"><li className="lists">Galaxy Buds2</li> </a>    
                       </div>
                       <div style={Mnum==2 ? style2 : style1}>
                     <li className="lists">Overview</li>

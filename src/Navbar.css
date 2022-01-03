@@ -1,6 +1,6 @@
 #Navbar{
   float: left;
-  width: 98%;
+  width: 100%;
   height: max-content;
   padding-left: 20px;
 }
@@ -27,8 +27,11 @@
   background-color: rgb(20, 20, 20);
 }
 #rightnav{
-  width: 34%;
+  width: max-content;
   float: right;
+}
+#icontainer{
+  float: left;
 }
 .icon{
   float: right;

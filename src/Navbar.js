@@ -11,6 +11,7 @@ import Offers from './Offers';
 import Explore from './Explore';
 import Support from './Support';
 import Businuss from './Businuss';
+import Loginhover from './Loginhover';
 function Navbar(){
   const style1={
     display: "none"
@@ -71,6 +72,12 @@ const style2={
   }
    function hide9() {
    document.getElementById("Businuss").style.display = "none";
+  }  
+  function show10() {
+    document.getElementById("login").style.display ="block";
+  }
+   function hide10() {
+   document.getElementById("login").style.display = "none";
   }         
   return(
    <> 
@@ -86,10 +93,10 @@ const style2={
         <a onMouseOver={show7} onMouseOut={hide7} onClick={show7}>Explore</a>
         <a onMouseOver={show8} onMouseOut={hide8} onClick={show8}>Support</a>
         <a onMouseOver={show9} onMouseOut={hide9} onClick={show9}>For Businuss</a>
-        <div>
+        <div id='icontainer'>
          <button className="icon"><img src={search} className="navicon"/></button>
          <button className="icon"><img src={cart} className="navicon"/></button> 
-         <button className="icon"><img src={user} className="navicon"/></button>    
+         <button className="icon" onMouseOver={show10} onMouseOut={hide10} onClick={show10}><img src={user} className="navicon"/></button>    
         </div>   
     </div> 
     </div>
@@ -102,6 +109,7 @@ const style2={
      <div id='Explore' style={style1} ><Explore/></div>
      <div id='Support' style={style1} ><Support/></div>
      <div id='Businuss' style={style1} ><Businuss/></div>
+     <div id='login' style={style1} ><Loginhover/></div>
    </>  
   )
 }

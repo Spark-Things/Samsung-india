@@ -314,7 +314,7 @@ function Maintab() {
                        </div>
            </div>
        </div>
-       <div className="container">
+       <div className="container" id="searchtab">
          <h2 className="heading">Looking For Something Else?</h2>
          <input className="searchbar" placeholder="Search keyboard"/>
           <div id="tabcontainer">
