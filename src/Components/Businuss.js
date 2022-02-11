@@ -1,4 +1,4 @@
-import './Mobile.css';
+import '../Components/Mobile.css';
 function Businuss() {
   function show9() {
     document.getElementById("Businuss").style.display ="block";

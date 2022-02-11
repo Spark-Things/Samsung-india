@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import Bespoke from './Bespoke.jpg';
-import './Mobile.js';
+import bespoke from '../Images/Bespoke.jpg'
+import '../Components/Mobile.css';
 function Ha() {
   const style1={
     display:"none"
@@ -115,7 +115,7 @@ function Ha() {
                  </div>
                  <div id='vertical'></div> 
                   <div className='rncontent'>
-                       <img className='imgs' src={Bespoke}/>
+                       <img className='imgs' src={bespoke}/>
                      <p className='pname'>BESPOKE Refrigerators</p>
                      <p className='pname2'>Buy now</p>
                   </div>

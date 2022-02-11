@@ -1,17 +1,17 @@
-import './Navbar.css';
-import search from './search.png';
-import cart from './cart.png';
-import user from './user.png';
-import Mobile from './Mobile';
-import Tv from './Tv';
-import Ha from './Ha';
-import Computing from './Computing';
-import Displays from './Displays';
-import Offers from './Offers';
-import Explore from './Explore';
-import Support from './Support';
-import Businuss from './Businuss';
-import Loginhover from './Loginhover';
+import '../Components/Navbar.css';
+import search from '../Images/search.png';
+import cart from '../Images/cart.png';
+import user from '../Images/user.png';
+import Mobile from '../Components/Mobile';
+import Tv from '../Components/Tv';
+import Ha from '../Components/Ha';
+import Computing from '../Components/Computing';
+import Displays from '../Components/Displays';
+import Offers from '../Components/Offers';
+import Explore from '../Components/Explore';
+import Support from '../Components/Support';
+import Businuss from '../Components/Businuss';
+import Loginhover from '../Components/Loginhover';
 function Navbar(){
   const style1={
     display: "none"

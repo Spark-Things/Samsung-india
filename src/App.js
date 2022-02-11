@@ -1,11 +1,18 @@
-
-import Miantab from "./Maintab";
-import './App.css'
+// import { BrowserRouter as Router,Switch, Route} from 'react-router-dom';
+import Maintab from "../src/Components/Maintab";
+import Mdetails from "../src/Components/Mdetails";
+import './App.css';
 function App() {
   return (
-    <div>
-      <Miantab/>
-    </div>
+    <>
+       <Maintab/>
+      {/* <Router>
+         <Switch>
+         <Route path="/" exact component={Miantab} />
+         <Route path="/Mobiles" exact component={Mdetails}/>
+         </Switch> 
+      </Router> */}
+    </>
   );
 }
 

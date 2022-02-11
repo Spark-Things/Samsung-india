@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import './Mobile.css';
-import tvs from './tvs.jpg';
+import tv from '../Images/tv.jpg';
+import '../Components/Mobile.css';
 function Tv() {
   const style1={
     display:"none"
@@ -91,7 +91,7 @@ function Tv() {
                    </div>
                    <div id='vertical'></div> 
                     <div className='rncontent'>
-                         <img className='imgs' src={tvs}/>
+                         <img className='imgs' src={tv}/>
                        <p className='pname'>New Crystal 4K | 4K Pro</p>
                        <p className='pname2'>Buy now</p>
                     </div>

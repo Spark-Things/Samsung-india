@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import './Mobile.css';
-import explore from './explore.jpg';
+import '../Components/Mobile.css';
+import explore from '../Images/explore.jpg';
 function Explore() {
   function show7() {
     document.getElementById("Explore").style.display ="block";

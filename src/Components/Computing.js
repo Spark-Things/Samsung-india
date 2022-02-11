@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import './Mobile.css';
-import cup from './cup.jpg';
+import '../Components/Mobile.css';
+import cup from '../Images/cup.jpg';
 function Computing() {
   function show4() {
     document.getElementById("compu").style.display ="block";

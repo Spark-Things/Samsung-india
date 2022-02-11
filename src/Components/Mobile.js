@@ -1,6 +1,8 @@
 import { useState } from 'react';
-import f3 from './f3.jpg';
-import './Mobile.css';
+import Mdetails from '../Components/Mdetails';
+import f3 from '../Images/f3.jpg';
+import '../Components/Mobile.css';
+import { Link } from 'react-router-dom';
 function Mobile() {
   const style1={
     display:"none"
@@ -23,6 +25,7 @@ function Mobile() {
   return(
     <>
        <div id="Mobiletab" onMouseOver={show} onMouseOut={hide}>
+          {/* <Link to="/Mobiles"><h2 id="heads">Mobile</h2></Link> */}
           <h2 id="heads">Mobile</h2>
          <div className='mconatiner'>
             <li className="lists" onMouseOver={() =>{setMnum(1)}} style={Mnum==1 ? active : null}>Featured</li>

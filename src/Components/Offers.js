@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import Offer from './offer.jpg';
-import './Mobile.css';
+import offer from '../Images/offer.jpg'
+import '../Components/Mobile.css';
 function Offers() {
   function show6() {
     document.getElementById("Offers").style.display ="block";
@@ -89,7 +89,7 @@ function Offers() {
                  </div>
                  <div id='vertical'></div> 
                   <div className='rncontent'>
-                       <img className='imgs' src={Offer}/>
+                       <img className='imgs' src={offer}/>
                      <p className='pname'>Gifts for everyone On your List</p>
                      <p className='pname2'>Buy now</p>
                   </div>

@@ -1,5 +1,4 @@
-import './Mobile.css';
-import cont from './cont.jpg';
+import '../Components/Mobile.css';
 function Support() {
   function show8() {
     document.getElementById("Support").style.display ="block";
@@ -26,7 +25,7 @@ function Support() {
                  </div>
                  <div id='vertical'></div> 
                   <div className='rncontent'>
-                       <img className='imgs' src={cont}/>
+                       <img className='imgs' src="../Images/cont.jpg"/>
                      <p className='pname2'>Contact Us on WhatsApp</p>
                   </div>
               </div>

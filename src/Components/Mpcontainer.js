@@ -1,4 +1,4 @@
-import Subcontainer from "./Subcontainer"
+import Subcontainer from "../Components/Subcontainer"
 function Mpcontainer(props) {
   return(
     <>

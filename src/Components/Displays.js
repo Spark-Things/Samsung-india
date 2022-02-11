@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import './Mobile.css';
-import display from './display.jpg';
+import '../Components/Mobile.css';
+import display from '../Images/display.jpg';
 function Displays() {
   function show5() {
     document.getElementById("Displays").style.display ="block";
