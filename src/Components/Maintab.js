@@ -49,7 +49,7 @@ function Maintab() {
     const[Selected4,setSelected4] = useState(1);
     
   return(
-    <div id="Maintab">
+    <div className="Maintab">
         <Navbar/>
        <div id="Slider">
          <div id="slide1"  style={Show == 1 ? style2 : style1}>

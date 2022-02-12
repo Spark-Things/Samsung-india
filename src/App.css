@@ -6,3 +6,13 @@ body{
 *{
   box-sizing: border-box;
 }
+.link{
+  text-decoration: none;
+}
+.Maintab{
+  box-sizing: border-box;
+  float: left;
+  width:98%;
+  height:max-content;
+  padding: 30px;
+}

@@ -5,7 +5,7 @@
   height:max-content;
   background-color: white;
   right: 0;
-  margin-top: 52px;
+  margin-top: 45px;
   margin-right: 70px;
   border-radius: 15px;
   padding: 10px;
@@ -16,4 +16,5 @@
   width: 100%;
   padding: 10px;
   font-weight: 550;
+  cursor: pointer;
 }

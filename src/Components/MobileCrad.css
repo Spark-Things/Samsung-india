@@ -1,0 +1,20 @@
+.MobileCard_image{
+  float: left;
+  height:max-content;
+  width:max-content;
+  align-self: center;
+}
+.MobileCrad_details_conatiner{
+  float: left;
+  width: 190px;
+  height: 100px;
+  padding: 5px;
+}
+.MobileCrad_details_conatiner > p{
+  color: #474747;
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+.MobileCrad_details_conatiner > h4{
+  margin-top: 10px;
+}

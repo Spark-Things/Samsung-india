@@ -2,16 +2,19 @@
   position: absolute;
   float: left;
   height: max-content;
-  width: 98%;
+  width: 97%;
   margin-top: 40px;
   z-index: 1;
   padding: 20px;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 #heads{
+  color: black;
+  text-decoration: none;
   font-size: 35px;
   margin: 0px;
   background-color: white;
+  cursor: pointer;
 }
 .mconatiner{
   float: left;
