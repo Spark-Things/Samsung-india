@@ -86,3 +86,21 @@ margin-top: 18px;
   font-size: 40px;
   font-weight: 800;
 }
+.MobileDis_Container{
+  float: left;
+  width: 100%;
+  height:max-content;
+  margin: 50px 0px;
+}
+.placebottom{
+  margin-top: 350px;
+}
+.noColor{
+  color: black;
+  background-color: transparent;
+  padding: 0px;
+  font-size: 14px;
+}
+.samesize{
+  width: max-content;
+}

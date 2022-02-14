@@ -1,0 +1,34 @@
+.Mobiledis_card{
+  float: left;
+  width: 23.5%;
+  background-color: #f7f7f7;
+  margin-right: 20px;
+}
+.imgDetails{
+  float: left;
+  width: 100%;
+  height: 209px;
+}
+.MobileDisscription_container{
+  text-align: center;
+  float: left;
+  height: 178px;
+  width: 100%;
+}
+.MobileDisscription_container >p{
+  font-size: 14px;
+}
+.button_mid{
+  align-self:center;
+  width:max-content;
+  margin: auto;
+  margin-top: 40px;
+}
+.Horizontal_line{
+  height: 2px;
+  background-color: black;
+  width: 100%;
+}
+.button_mid > a{
+  font-size: 14px;
+}
