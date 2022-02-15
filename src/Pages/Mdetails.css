@@ -104,3 +104,10 @@ margin-top: 18px;
 .samesize{
   width: max-content;
 }
+.placeleft{
+  margin-top: 200px;
+  margin-left: 10%;
+}
+.btntext{
+  font-size: 16px;
+}

@@ -18,6 +18,11 @@ import MDD1 from "../Images/MDD1.jpg";
 import MDD2 from "../Images/MDD2.jpg";
 import MDD3 from "../Images/MDD3.jpg";
 import MDD4 from "../Images/MDD4.jpg";
+import Tab_background from "../Images/Tab_background.jpg";
+import Ti1 from "../Images/Ti1.jpg";
+import Ti2 from "../Images/Ti2.jpg";
+import Ti3 from "../Images/Ti3.jpg";
+import Ti5 from "../Images/Ti5.jpg";
 import './Mdetails.css';
 function Mdetails() {
    const [tab, setTab] = useState(1);
@@ -98,7 +103,24 @@ function Mdetails() {
          <Mobiledis image={MDD3} title="Battery" discription="Go out for the night without plugging in"/>
          <Mobiledis image={MDD4} title="Experience it now" discription="Explore Galaxy S22 | S22+ in 360º AR"/>
      </div>
+     <div className="Mobile_video_container">
+          <div className="TextonVideo placeleft">
+              <h1 className="Mobile_container_title">Galaxy Tab S8 | S8+ | S8 Ultra </h1>
+              <p>Space for limitless possibilities</p><br/><br/>
+              <div className="samesize">
+              <button className="buybutton btntext">Learn More</button>
+              </div>
+          </div>
+          <img src={Tab_background}/>
+     </div>
+     <div className="MobileDis_Container">
+         <Mobiledis image={Ti1} title="S Pen" discription="Ready for anything noteworthy"/>
+         <Mobiledis image={Ti2} title="Video Calling" discription="Focused on keeping you connected"/>
+         <Mobiledis image={Ti3} title="Multitasking" discription="Divide your screen. Conquer your day"/>
+         <Mobiledis image={Ti5} title="Entertainment" discription="Your space to play on the go"/>
+     </div>
     </div>
+    
   )
 }
 export default Mdetails;
