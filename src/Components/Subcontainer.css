@@ -1,10 +1,21 @@
 .subcontainer{
   float: left;
-  height: 250px;
-  width: 250px;
+  height: 310px;
+  width: 310px;
   padding: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  background-color: indigo;
+  margin-left: 10px;
+  margin-bottom: 22px;
+  background-color: rgb(244 244 244);
   border-radius: 20px;
+  padding: 50px 70px;
+}
+.subcontainer >h3{
+  width: 100%;
+  font-size: 14px;
+}
+.samllLaters{
+  float: left;
+  margin-left: 30px;
+  font-size: 14px;
+  margin-top: 20px;
 }

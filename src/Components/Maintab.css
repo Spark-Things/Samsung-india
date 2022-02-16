@@ -114,19 +114,18 @@
 }
 .inltab{
   float: left;
-  width: 45%;
-  height: 620px;
+  width: 684px;
+  height: 684px;
   margin: 30px;
-  margin-left: 80px;
   margin-right: 10px;
   border-radius: 20px;
 }
 .inrtab{
   float: left;
-  width: 40%;
-  height:max-content;
-  margin: 30px;
+  width: 650px;
+  height: 684px;
   padding-left: 0px;
+  margin-top: 25px;
 }
 .inltab2{
   float: left;

@@ -1,4 +1,4 @@
-body{
+html{
   background-color: white;
   font-family: sans-serif;
   box-sizing: border-box;
@@ -12,7 +12,7 @@ body{
 .Maintab{
   box-sizing: border-box;
   float: left;
-  width:98%;
+  width: 98%;
   height:max-content;
   padding: 30px;
 }
