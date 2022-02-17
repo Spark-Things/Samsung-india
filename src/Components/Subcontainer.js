@@ -11,7 +11,8 @@ function Subcontainer(props) {
   return(
     <div className="subcontainer" onMouseOver={()=>setDisplay(0)} onMouseOut={()=>setDisplay(1)}>
          <img src={props.img} alt='img'/><br/>
-         <h3 style={(display==1) ? style2 : style1}>{props.name}</h3>
+         <h3>{props.name}</h3>
+         <p>{props.offer}</p>
          <button className='buybutton samllLaters' style={(display==1) ? style1 : style2}>Learn More</button>
     </div>
   )
