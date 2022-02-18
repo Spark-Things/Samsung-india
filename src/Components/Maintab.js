@@ -32,6 +32,36 @@ import ha3 from '../Images/ha3.jpg';
 import ha4 from '../Images/ha4.jpg';
 import HAcontainer from './HAacontainer';
 import Mobile from '../Components/Mobile';
+
+
+import of1 from "../Images/of1.png";
+import of2 from "../Images/of2.png";
+import of4 from "../Images/of4.png";
+
+import Mof1 from "../Images/Mof1.png";
+import Mof2 from "../Images/Mof2.png";
+import Mof3 from "../Images/Mof3.png";
+import Mof4 from "../Images/Mof4.png";
+
+import Tof1 from "../Images/Tof1.png";
+import Tof2 from "../Images/Tof2.png";
+import Tof3 from "../Images/Tof3.png";
+import Tof4 from "../Images/Tof4.png";
+
+import Aof1 from "../Images/Aof1.png";
+import Aof2 from "../Images/Aof2.png";
+import Aof3 from "../Images/Aof3.png";
+import Aof4 from "../Images/Aof4.png";
+
+import Wof1 from "../Images/Wof1.png";
+import Wof2 from "../Images/Wof2.png";
+import Wof3 from "../Images/Wof3.png";
+import Wof4 from "../Images/Wof4.jpg";
+
+import Tabof1 from "../Images/Tabof1.png";
+import Tabof2 from "../Images/Tabof2.png";
+import Tabof3 from "../Images/Tabof3.png";
+import Tabof4 from "../Images/Tabof4.png";
 function Maintab() {
     const style1={
         display: "none"
@@ -154,18 +184,42 @@ function Maintab() {
              </ul>  
            </div>
             <div style={Selected==1? style2 : style1}>
-                 <Mpcontainer img1={hd1}/>
+                 <Mpcontainer 
+                 img1={hd1} img2={of1} img3={of2} img4={of4} 
+                 title1="Galaxy z Flip 3 5G" 
+                 title2="Cool.No Wind.WindFree"
+                 title3 = "Galaxy Tab S8 Series"/>
             </div>
             <div style={Selected==2? style2 : style1}>
-                <Mpcontainer img1={m2}/></div>
+                <Mpcontainer img1={m2} img2={Mof1} img3={Mof2} img4={Mof3} img5={Mof4} 
+                 title1="Galaxy z Fold 3 5G" 
+                 title2="Galaxy F12"
+                 title3 = "Galaxy M52"
+                 title4= "Galaxy S21 FE 5G"/></div>
             <div style={Selected==3? style2 : style1}>
-                <Mpcontainer img1={tvp}/></div>
+                <Mpcontainer img1={tvp} img2={Tof1} img3={Tof2} img4={Tof3} img5={Tof4} 
+                 title1="The Frame" 
+                 title2="Crystal 4K UHD 43-inch"
+                 title3 = "Neo QLED 4K"
+                 title4= "Crystal 4K UHD"/></div>
             <div style={Selected==4? style2 : style1}>
-                <Mpcontainer img1={Bsp}/></div>
+                <Mpcontainer img1={Bsp} img2={Aof1} img3={Aof2} img4={Aof3} img5={Aof4} 
+                 title1="IntensiveWash DishWasher" 
+                 title2="AI eco-bubble"
+                 title3 = "Top Load With Wobble Technology"
+                 title4= "Connection MWO with Slimfry"/></div>
             <div style={Selected==5? style2 : style1}>
-                <Mpcontainer img1={w4}/></div>
+                <Mpcontainer img1={w4} img2={Wof1} img3={Wof2} img4={Wof3} img5={Wof4} 
+                 title1="New Galaxy Buds 2" 
+                 title2="Galaxy Buds Live"
+                 title3 = "Galaxy Watch 3"
+                 title4= "Galaxy Buds Pro"/></div>
             <div style={Selected==6? style2 : style1}>
-                <Mpcontainer img1={ts7}/></div>
+                <Mpcontainer img1={ts7} img2={Tabof1} img3={Tabof2} img4={Tabof3} img5={Tabof4} 
+                 title1="Galaxy Tab A8" 
+                 title2="Galaxy Tab A7"
+                 title3 = "Galaxy Tab S6 lite"
+                 title4= "Galaxy Tab S7 FE"/></div>
        </div>
        <div className="container">
            <h2 className="heading2">Mobile</h2>
